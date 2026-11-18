@@ -37,6 +37,8 @@ references/      papers (not in git)
 ## Models
 - Retriever: [facebook/contriever](https://huggingface.co/facebook/contriever), licence CC BY-NC 4.0
 - Generator: [Qwen/Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct), licence Apache 2.0
+- Model revisions: facebook/contriever `2bd46a25019aeea091fd42d1f0fd4801675cf699`; Qwen/Qwen2.5-1.5B-Instruct `989aa7980e4cf806f80c7fef2b1adb7bc71aa306`
+- The fixed settings (models, revisions, top_k, seed, generation settings) are in `config.json`.
 
 ## Reused code
 The smoke test is adapted from the Contriever and Qwen2.5 model card examples.
