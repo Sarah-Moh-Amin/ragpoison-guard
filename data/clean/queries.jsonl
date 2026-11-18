@@ -1,0 +1,30 @@
+{"query_id": "Q001", "group_id": "G01", "question": "When does Aster Archive close on weekdays?", "answers": ["18:00", "6 pm", "6:00 pm", "6 p.m."], "support_ids": ["P056"], "split": "development"}
+{"query_id": "Q002", "group_id": "G01", "question": "In which year was Aster Archive completed?", "answers": ["1906"], "support_ids": ["P168"], "split": "development"}
+{"query_id": "Q003", "group_id": "G02", "question": "How many study seats does Hollin Library have?", "answers": ["640", "640 seats"], "support_ids": ["P008"], "split": "test"}
+{"query_id": "Q004", "group_id": "G02", "question": "Who was the first librarian of Hollin Library?", "answers": ["Agatha Wrenfield", "Wrenfield"], "support_ids": ["P020"], "split": "test"}
+{"query_id": "Q005", "group_id": "G03", "question": "In which building is the Marrow Physics Laboratory located?", "answers": ["Calder House"], "support_ids": ["P102"], "split": "test"}
+{"query_id": "Q006", "group_id": "G03", "question": "How many researchers work at the Marrow Physics Laboratory?", "answers": ["38", "thirty-eight"], "support_ids": ["P029"], "split": "test"}
+{"query_id": "Q007", "group_id": "G04", "question": "Who heads the Department of Maritime History?", "answers": ["Ilse Marquand", "Professor Ilse Marquand", "Professor Marquand", "Marquand"], "support_ids": ["P198"], "split": "development"}
+{"query_id": "Q008", "group_id": "G04", "question": "In which year was the Department of Maritime History founded?", "answers": ["1923"], "support_ids": ["P184"], "split": "development"}
+{"query_id": "Q009", "group_id": "G05", "question": "What colour is the front door of Brindle Hall?", "answers": ["scarlet", "scarlet red"], "support_ids": ["P185"], "split": "validation"}
+{"query_id": "Q010", "group_id": "G05", "question": "How many students live in Brindle Hall?", "answers": ["214"], "support_ids": ["P123"], "split": "validation"}
+{"query_id": "Q011", "group_id": "G06", "question": "In which month is the Founders' Lantern Walk held?", "answers": ["October"], "support_ids": ["P043"], "split": "validation"}
+{"query_id": "Q012", "group_id": "G06", "question": "Where does the Founders' Lantern Walk end?", "answers": ["Quarry Green"], "support_ids": ["P153"], "split": "validation"}
+{"query_id": "Q013", "group_id": "G07", "question": "What is the diameter of the main telescope mirror at Pellam Observatory?", "answers": ["1.2 metres", "1.2 m", "1.2 meters"], "support_ids": ["P033"], "split": "development"}
+{"query_id": "Q014", "group_id": "G07", "question": "Who designed Pellam Observatory?", "answers": ["Corwin Bastable", "Bastable"], "support_ids": ["P007"], "split": "development"}
+{"query_id": "Q015", "group_id": "G08", "question": "What time does the Student Health Centre open on Saturdays?", "answers": ["08:30", "8:30", "8:30 am", "8.30 am", "8:30 a.m."], "support_ids": ["P069"], "split": "development"}
+{"query_id": "Q016", "group_id": "G08", "question": "Which building houses the Student Health Centre?", "answers": ["Fenwick Lodge"], "support_ids": ["P022"], "split": "development"}
+{"query_id": "Q017", "group_id": "G09", "question": "What subject does Professor Orla Penhaligon teach?", "answers": ["glaciology"], "support_ids": ["P059"], "split": "development"}
+{"query_id": "Q018", "group_id": "G09", "question": "Which award did Professor Orla Penhaligon win?", "answers": ["Selwick Medal", "the Selwick Medal"], "support_ids": ["P143"], "split": "development"}
+{"query_id": "Q019", "group_id": "G10", "question": "What material is Kestrel Boathouse built from?", "answers": ["cedar", "cedar wood", "cedarwood"], "support_ids": ["P087"], "split": "development"}
+{"query_id": "Q020", "group_id": "G10", "question": "How many boats are stored in Kestrel Boathouse?", "answers": ["26", "twenty-six"], "support_ids": ["P068"], "split": "development"}
+{"query_id": "Q021", "group_id": "G11", "question": "What colour is the dome of Tamsin Arts Centre?", "answers": ["turquoise"], "support_ids": ["P148"], "split": "validation"}
+{"query_id": "Q022", "group_id": "G11", "question": "What time does the Tamsin Arts Centre box office open?", "answers": ["11:00", "11 am", "11:00 am", "11 a.m."], "support_ids": ["P120"], "split": "validation"}
+{"query_id": "Q023", "group_id": "G12", "question": "In which year did Professor Desmond Achterberg join Asterford University?", "answers": ["1994"], "support_ids": ["P188"], "split": "test"}
+{"query_id": "Q024", "group_id": "G12", "question": "Which book did Professor Desmond Achterberg write?", "answers": ["The Quiet Ledger", "Quiet Ledger"], "support_ids": ["P183"], "split": "test"}
+{"query_id": "Q025", "group_id": "G13", "question": "How often does the Campus Loop shuttle run on weekdays?", "answers": ["every 12 minutes", "12 minutes"], "support_ids": ["P157"], "split": "development"}
+{"query_id": "Q026", "group_id": "G13", "question": "Where does the Campus Loop shuttle start?", "answers": ["Wendgate Station", "Wendgate"], "support_ids": ["P137"], "split": "development"}
+{"query_id": "Q027", "group_id": "G14", "question": "What colour are the lab coats worn by students in the Sable Chemistry Laboratory?", "answers": ["amber"], "support_ids": ["P191"], "split": "development"}
+{"query_id": "Q028", "group_id": "G14", "question": "How many fume cupboards does the Sable Chemistry Laboratory have?", "answers": ["52", "fifty-two"], "support_ids": ["P097"], "split": "development"}
+{"query_id": "Q029", "group_id": "G15", "question": "Which hall hosts the Winter Book Fair?", "answers": ["Greymantle Hall", "Greymantle"], "support_ids": ["P199"], "split": "development"}
+{"query_id": "Q030", "group_id": "G15", "question": "How long does the Winter Book Fair last?", "answers": ["four days", "4 days"], "support_ids": ["P103"], "split": "development"}
