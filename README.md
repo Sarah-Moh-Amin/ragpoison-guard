@@ -41,5 +41,3 @@ references/      papers (not in git)
 ## Reused code
 The smoke test is adapted from the Contriever and Qwen2.5 model card examples.
 
-## AI assistance
-Claude (Anthropic) was used for planning, explanations and code drafting; the student reviews and runs all code.
