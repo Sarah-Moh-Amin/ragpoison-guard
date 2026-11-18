@@ -1,0 +1,86 @@
+{
+  "seed": 42,
+  "rule": "split by group",
+  "note": "G01 is always development; the other 14 groups are shuffled with the seed: 8 development, 3 validation, 3 test",
+  "corpus_version": "clean_v1",
+  "groups": {
+    "development": [
+      "G01",
+      "G04",
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G13",
+      "G14",
+      "G15"
+    ],
+    "validation": [
+      "G05",
+      "G06",
+      "G11"
+    ],
+    "test": [
+      "G02",
+      "G03",
+      "G12"
+    ]
+  },
+  "query_ids": {
+    "development": [
+      "Q001",
+      "Q002",
+      "Q007",
+      "Q008",
+      "Q013",
+      "Q014",
+      "Q015",
+      "Q016",
+      "Q017",
+      "Q018",
+      "Q019",
+      "Q020",
+      "Q025",
+      "Q026",
+      "Q027",
+      "Q028",
+      "Q029",
+      "Q030"
+    ],
+    "validation": [
+      "Q009",
+      "Q010",
+      "Q011",
+      "Q012",
+      "Q021",
+      "Q022"
+    ],
+    "test": [
+      "Q003",
+      "Q004",
+      "Q005",
+      "Q006",
+      "Q023",
+      "Q024"
+    ]
+  },
+  "counts": {
+    "passages": 200,
+    "queries": 30,
+    "passages_by_role": {
+      "distractor": 50,
+      "background": 120,
+      "supporting": 30
+    },
+    "queries_by_split": {
+      "development": 18,
+      "validation": 6,
+      "test": 6
+    }
+  },
+  "sha256": {
+    "passages.jsonl": "594a454cd6f29693ed29d056505be9200bf53e606e44036a27793f539b05568d",
+    "queries.jsonl": "bf7c56b91b96e2bb924ae449456518bee50d494a37c17d2c203cf284da7b4d97"
+  },
+  "locked": true
+}

@@ -1,0 +1,1002 @@
+{
+  "P001": {
+    "role": "distractor",
+    "group_id": "G11",
+    "query_id": null
+  },
+  "P002": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P003": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P004": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P005": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P006": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P007": {
+    "role": "supporting",
+    "group_id": "G07",
+    "query_id": "Q014"
+  },
+  "P008": {
+    "role": "supporting",
+    "group_id": "G02",
+    "query_id": "Q003"
+  },
+  "P009": {
+    "role": "distractor",
+    "group_id": "G11",
+    "query_id": null
+  },
+  "P010": {
+    "role": "distractor",
+    "group_id": "G05",
+    "query_id": null
+  },
+  "P011": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P012": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P013": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P014": {
+    "role": "distractor",
+    "group_id": "G14",
+    "query_id": null
+  },
+  "P015": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P016": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P017": {
+    "role": "distractor",
+    "group_id": "G05",
+    "query_id": null
+  },
+  "P018": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P019": {
+    "role": "distractor",
+    "group_id": "G01",
+    "query_id": null
+  },
+  "P020": {
+    "role": "supporting",
+    "group_id": "G02",
+    "query_id": "Q004"
+  },
+  "P021": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P022": {
+    "role": "supporting",
+    "group_id": "G08",
+    "query_id": "Q016"
+  },
+  "P023": {
+    "role": "distractor",
+    "group_id": "G04",
+    "query_id": null
+  },
+  "P024": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P025": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P026": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P027": {
+    "role": "distractor",
+    "group_id": "G06",
+    "query_id": null
+  },
+  "P028": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P029": {
+    "role": "supporting",
+    "group_id": "G03",
+    "query_id": "Q006"
+  },
+  "P030": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P031": {
+    "role": "distractor",
+    "group_id": "G02",
+    "query_id": null
+  },
+  "P032": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P033": {
+    "role": "supporting",
+    "group_id": "G07",
+    "query_id": "Q013"
+  },
+  "P034": {
+    "role": "distractor",
+    "group_id": "G02",
+    "query_id": null
+  },
+  "P035": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P036": {
+    "role": "distractor",
+    "group_id": "G12",
+    "query_id": null
+  },
+  "P037": {
+    "role": "distractor",
+    "group_id": "G10",
+    "query_id": null
+  },
+  "P038": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P039": {
+    "role": "distractor",
+    "group_id": "G01",
+    "query_id": null
+  },
+  "P040": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P041": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P042": {
+    "role": "distractor",
+    "group_id": "G09",
+    "query_id": null
+  },
+  "P043": {
+    "role": "supporting",
+    "group_id": "G06",
+    "query_id": "Q011"
+  },
+  "P044": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P045": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P046": {
+    "role": "distractor",
+    "group_id": "G07",
+    "query_id": null
+  },
+  "P047": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P048": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P049": {
+    "role": "distractor",
+    "group_id": "G13",
+    "query_id": null
+  },
+  "P050": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P051": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P052": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P053": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P054": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P055": {
+    "role": "distractor",
+    "group_id": "G04",
+    "query_id": null
+  },
+  "P056": {
+    "role": "supporting",
+    "group_id": "G01",
+    "query_id": "Q001"
+  },
+  "P057": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P058": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P059": {
+    "role": "supporting",
+    "group_id": "G09",
+    "query_id": "Q017"
+  },
+  "P060": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P061": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P062": {
+    "role": "distractor",
+    "group_id": "G03",
+    "query_id": null
+  },
+  "P063": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P064": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P065": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P066": {
+    "role": "distractor",
+    "group_id": "G15",
+    "query_id": null
+  },
+  "P067": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P068": {
+    "role": "supporting",
+    "group_id": "G10",
+    "query_id": "Q020"
+  },
+  "P069": {
+    "role": "supporting",
+    "group_id": "G08",
+    "query_id": "Q015"
+  },
+  "P070": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P071": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P072": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P073": {
+    "role": "distractor",
+    "group_id": "G11",
+    "query_id": null
+  },
+  "P074": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P075": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P076": {
+    "role": "distractor",
+    "group_id": "G05",
+    "query_id": null
+  },
+  "P077": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P078": {
+    "role": "distractor",
+    "group_id": "G15",
+    "query_id": null
+  },
+  "P079": {
+    "role": "distractor",
+    "group_id": "G08",
+    "query_id": null
+  },
+  "P080": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P081": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P082": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P083": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P084": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P085": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P086": {
+    "role": "distractor",
+    "group_id": "G01",
+    "query_id": null
+  },
+  "P087": {
+    "role": "supporting",
+    "group_id": "G10",
+    "query_id": "Q019"
+  },
+  "P088": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P089": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P090": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P091": {
+    "role": "distractor",
+    "group_id": "G10",
+    "query_id": null
+  },
+  "P092": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P093": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P094": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P095": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P096": {
+    "role": "distractor",
+    "group_id": "G13",
+    "query_id": null
+  },
+  "P097": {
+    "role": "supporting",
+    "group_id": "G14",
+    "query_id": "Q028"
+  },
+  "P098": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P099": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P100": {
+    "role": "distractor",
+    "group_id": "G07",
+    "query_id": null
+  },
+  "P101": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P102": {
+    "role": "supporting",
+    "group_id": "G03",
+    "query_id": "Q005"
+  },
+  "P103": {
+    "role": "supporting",
+    "group_id": "G15",
+    "query_id": "Q030"
+  },
+  "P104": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P105": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P106": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P107": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P108": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P109": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P110": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P111": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P112": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P113": {
+    "role": "distractor",
+    "group_id": "G02",
+    "query_id": null
+  },
+  "P114": {
+    "role": "distractor",
+    "group_id": "G06",
+    "query_id": null
+  },
+  "P115": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P116": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P117": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P118": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P119": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P120": {
+    "role": "supporting",
+    "group_id": "G11",
+    "query_id": "Q022"
+  },
+  "P121": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P122": {
+    "role": "distractor",
+    "group_id": "G15",
+    "query_id": null
+  },
+  "P123": {
+    "role": "supporting",
+    "group_id": "G05",
+    "query_id": "Q010"
+  },
+  "P124": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P125": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P126": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P127": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P128": {
+    "role": "distractor",
+    "group_id": "G12",
+    "query_id": null
+  },
+  "P129": {
+    "role": "distractor",
+    "group_id": "G07",
+    "query_id": null
+  },
+  "P130": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P131": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P132": {
+    "role": "distractor",
+    "group_id": "G04",
+    "query_id": null
+  },
+  "P133": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P134": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P135": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P136": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P137": {
+    "role": "supporting",
+    "group_id": "G13",
+    "query_id": "Q026"
+  },
+  "P138": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P139": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P140": {
+    "role": "distractor",
+    "group_id": "G14",
+    "query_id": null
+  },
+  "P141": {
+    "role": "distractor",
+    "group_id": "G09",
+    "query_id": null
+  },
+  "P142": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P143": {
+    "role": "supporting",
+    "group_id": "G09",
+    "query_id": "Q018"
+  },
+  "P144": {
+    "role": "distractor",
+    "group_id": "G06",
+    "query_id": null
+  },
+  "P145": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P146": {
+    "role": "distractor",
+    "group_id": "G14",
+    "query_id": null
+  },
+  "P147": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P148": {
+    "role": "supporting",
+    "group_id": "G11",
+    "query_id": "Q021"
+  },
+  "P149": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P150": {
+    "role": "distractor",
+    "group_id": "G01",
+    "query_id": null
+  },
+  "P151": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P152": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P153": {
+    "role": "supporting",
+    "group_id": "G06",
+    "query_id": "Q012"
+  },
+  "P154": {
+    "role": "distractor",
+    "group_id": "G12",
+    "query_id": null
+  },
+  "P155": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P156": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P157": {
+    "role": "supporting",
+    "group_id": "G13",
+    "query_id": "Q025"
+  },
+  "P158": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P159": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P160": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P161": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P162": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P163": {
+    "role": "distractor",
+    "group_id": "G03",
+    "query_id": null
+  },
+  "P164": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P165": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P166": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P167": {
+    "role": "distractor",
+    "group_id": "G03",
+    "query_id": null
+  },
+  "P168": {
+    "role": "supporting",
+    "group_id": "G01",
+    "query_id": "Q002"
+  },
+  "P169": {
+    "role": "distractor",
+    "group_id": "G13",
+    "query_id": null
+  },
+  "P170": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P171": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P172": {
+    "role": "distractor",
+    "group_id": "G08",
+    "query_id": null
+  },
+  "P173": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P174": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P175": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P176": {
+    "role": "distractor",
+    "group_id": "G06",
+    "query_id": null
+  },
+  "P177": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P178": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P179": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P180": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P181": {
+    "role": "distractor",
+    "group_id": "G09",
+    "query_id": null
+  },
+  "P182": {
+    "role": "distractor",
+    "group_id": "G08",
+    "query_id": null
+  },
+  "P183": {
+    "role": "supporting",
+    "group_id": "G12",
+    "query_id": "Q024"
+  },
+  "P184": {
+    "role": "supporting",
+    "group_id": "G04",
+    "query_id": "Q008"
+  },
+  "P185": {
+    "role": "supporting",
+    "group_id": "G05",
+    "query_id": "Q009"
+  },
+  "P186": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P187": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P188": {
+    "role": "supporting",
+    "group_id": "G12",
+    "query_id": "Q023"
+  },
+  "P189": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P190": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P191": {
+    "role": "supporting",
+    "group_id": "G14",
+    "query_id": "Q027"
+  },
+  "P192": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P193": {
+    "role": "distractor",
+    "group_id": "G02",
+    "query_id": null
+  },
+  "P194": {
+    "role": "distractor",
+    "group_id": "G08",
+    "query_id": null
+  },
+  "P195": {
+    "role": "distractor",
+    "group_id": "G10",
+    "query_id": null
+  },
+  "P196": {
+    "role": "distractor",
+    "group_id": "G13",
+    "query_id": null
+  },
+  "P197": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  },
+  "P198": {
+    "role": "supporting",
+    "group_id": "G04",
+    "query_id": "Q007"
+  },
+  "P199": {
+    "role": "supporting",
+    "group_id": "G15",
+    "query_id": "Q029"
+  },
+  "P200": {
+    "role": "background",
+    "group_id": null,
+    "query_id": null
+  }
+}
