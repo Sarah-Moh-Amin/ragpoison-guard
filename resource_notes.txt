@@ -1,0 +1,18 @@
+Operating system: macOS-26.6.2-arm64-arm-64bit-Mach-O
+Python version: 3.14.7
+Chip / CPU: Apple M1 Pro
+RAM (GB): 16.0
+Free disk (GB): 513.8
+GPU: Apple MPS available = True
+PyTorch version: 2.15.0
+Device used for this test: cpu
+Retriever: facebook/contriever revision 2bd46a25019aeea091fd42d1f0fd4801675cf699
+Generator: Qwen/Qwen2.5-1.5B-Instruct revision 989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+Generator load time (s): 1.2
+One answer generation time (s): 7.3
+Smoke test answer: Based on the provided evidence:
+
+- Aster Archive closes at 18:00 on weekdays (P001).
+- Aster Archive opens at 09:00 on weekdays (P002).
+
+Therefore, when Aster Archive closes on weekdays is **18:00**.

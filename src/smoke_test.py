@@ -2,6 +2,7 @@
 # Task 2, Day 1: check that the retriever (Contriever) and the
 # generator (Qwen) both run on this computer, and record the hardware.
 
+import json
 import platform
 import shutil
 import subprocess
@@ -12,6 +13,9 @@ import psutil
 import torch
 from transformers import AutoTokenizer, AutoModel, AutoModelForCausalLM
 
+# Load the fixed settings (model names and revisions) from config.json.
+with open("config.json") as f:
+    config = json.load(f)
 
 # ---------------------------------------------------------------
 # Step 1: record the hardware in resource_notes.txt
@@ -45,10 +49,11 @@ for line in notes:
 # ---------------------------------------------------------------
 print("\nStep 2: loading Contriever (first time downloads about 0.4 GB)...")
 
-retriever_name = "facebook/contriever"
+retriever_name = config["retriever"]
+retriever_revision = config["retriever_revision"]
 start = time.time()
-tok = AutoTokenizer.from_pretrained(retriever_name)
-encoder = AutoModel.from_pretrained(retriever_name).eval()
+tok = AutoTokenizer.from_pretrained(retriever_name, revision=retriever_revision)
+encoder = AutoModel.from_pretrained(retriever_name, revision=retriever_revision).eval()
 print("   loaded in", round(time.time() - start, 1), "seconds")
 
 
@@ -82,7 +87,6 @@ print("   retrieval scores (higher = more relevant):")
 for text, score in zip(passages, scores):
     print("     ", round(float(score), 3), "|", text)
 
-retriever_revision = getattr(encoder.config, "_commit_hash", "unknown")
 notes.append("Retriever: " + retriever_name + " revision " + str(retriever_revision))
 
 
@@ -91,10 +95,11 @@ notes.append("Retriever: " + retriever_name + " revision " + str(retriever_revis
 # ---------------------------------------------------------------
 print("\nStep 3: loading Qwen (first time downloads about 3 GB, please wait)...")
 
-generator_name = "Qwen/Qwen2.5-1.5B-Instruct"
+generator_name = config["generator"]
+generator_revision = config["generator_revision"]
 start = time.time()
-gtok = AutoTokenizer.from_pretrained(generator_name)
-generator = AutoModelForCausalLM.from_pretrained(generator_name).eval()
+gtok = AutoTokenizer.from_pretrained(generator_name, revision=generator_revision)
+generator = AutoModelForCausalLM.from_pretrained(generator_name, revision=generator_revision).eval()
 load_time = time.time() - start
 print("   loaded in", round(load_time, 1), "seconds")
 
@@ -124,7 +129,6 @@ answer = gtok.decode(new_tokens, skip_special_tokens=True)
 print("   answer:", answer)
 print("   generation time:", round(gen_time, 1), "seconds")
 
-generator_revision = getattr(generator.config, "_commit_hash", "unknown")
 notes.append("Generator: " + generator_name + " revision " + str(generator_revision))
 notes.append("Generator load time (s): " + str(round(load_time, 1)))
 notes.append("One answer generation time (s): " + str(round(gen_time, 1)))
