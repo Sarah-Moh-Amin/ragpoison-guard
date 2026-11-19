@@ -1,0 +1,11 @@
+{
+  "run_id": "retrieval_20261120_013439",
+  "support_hit_at_10": 18,
+  "total": 18,
+  "rate": 1.0,
+  "misses": [],
+  "cache_mode": "build",
+  "cache_time_seconds": 2.551,
+  "mean_retrieval_seconds": 0.0265,
+  "max_retrieval_seconds": 0.0275
+}
