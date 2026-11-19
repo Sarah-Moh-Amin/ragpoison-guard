@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "retriever": "facebook/contriever",
+  "retriever_revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+  "pooling": "masked_mean",
+  "retriever_max_tokens": 256,
+  "retrieval_score": "dot",
+  "generator": "Qwen/Qwen2.5-1.5B-Instruct",
+  "generator_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "top_k": 10,
+  "max_new_tokens": 64,
+  "do_sample": false,
+  "prompt_version": "pilot_v1",
+  "device": "cpu",
+  "run_id": "retrieval_20261120_013449",
+  "date": "2026-11-20T01:34:49"
+}

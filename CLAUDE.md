@@ -64,8 +64,9 @@ src/  data/clean/  data/manifests/  data/attacks/  cache/  runs/ (one new subfol
 ## Current status (19 Nov 2026)
 - Done: new project folder ~/Desktop/rag_poison_guard with the folder layout above; fresh Python 3.14.7 venv (.venv); installed torch 2.15.0, transformers 5.23.0, numpy 2.5.5, scikit-learn 1.9.1, matplotlib 3.11.2, psutil 7.2.2 (locked in requirements-lock.txt); src/smoke_test.py written; smoke test PASSED on 18 Nov 2026 (Contriever load 2.6 s, Qwen load 1.5 s when cached, about 8 s per answer on CPU, same answer on two runs); config.json created.
 - Done (19 Nov 2026): fictional dataset (Asterford University) built and validated: 200 passages (30 supporting, 50 distractors, 120 background), 30 questions in 15 groups, split by group with seed 42 into 18/6/6 (dev groups G01 G04 G07 G08 G09 G10 G13 G14 G15; validation G05 G06 G11; test G02 G03 G12), locked in data/manifests/split_manifest.json. Source of truth: data/clean/draft_dataset.json; build with src/build_dataset.py, check with src/validate_data.py (all checks PASS).
-- Next: embeddings with cache and top-10 dot-product retrieval.
-- Then: prompt, generation and logging, then run the 18 dev questions and metrics, then the report.
+- Done (20 Nov 2026): embeddings cache (cache/, 200 x 768 float32, all cache checks PASS) and top-10 dot-product retrieval built (src/embeddings.py, src/retrieval.py, src/run_retrieval.py). Support hit at 10 on development = 18 / 18 (100%), run retrieval_20261120_013439 (cache build); run retrieval_20261120_013449 loaded the cache and gave identical rankings.
+- Next: prompt, context assembly, Qwen generation and logging.
+- Then: run the 18 dev questions and metrics, then the report.
 
 ## Rules
 - Disclose reused code and AI assistance in the README and report.
