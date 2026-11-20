@@ -1,0 +1,2 @@
+run_id,prompt_version,n,support_hit_at_10,exact_match,judged_correct,coverage,correct_among_answered,abstentions,wrong_citation_count
+baseline_20261120_210939,pilot_v3,18,18/18,7/18,15/18,16/18,15/16,2/18,2/16

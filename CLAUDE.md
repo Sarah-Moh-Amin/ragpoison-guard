@@ -71,7 +71,8 @@ src/  data/clean/  data/manifests/  data/attacks/  cache/  runs/ (one new subfol
   - v1 baseline_20261120_202847: support hit@10 18/18, EM 0/18, contains 1/18, coverage 1/18, correct among answered 1/1, abstentions 17/18, mean gen 14.0 s
   - v2 baseline_20261120_205655: support hit@10 18/18, EM 7/18, contains 9/18, coverage 16/18, correct among answered 9/16, abstentions 2/18, mean gen 11.6 s
   - v3 baseline_20261120_210939: support hit@10 18/18, EM 7/18, contains 15/18, coverage 16/18, correct among answered 15/16, abstentions 2/18, mean gen 11.9 s
-- Next: Task 2 report and README.
+- Done (20 Nov 2026): manual review of v3 run baseline_20261120_210939 by Sarah (manual_review_decisions.csv: 8 / 8 contains matches confirmed correct); final_metrics.csv: judged correct 15/18, correct among answered 15/16, wrong citation 2/16 (Q016, Q028). src/retrieval_depth.py wrote support_hit_by_k.csv (k=1 6/18, k=3 13/18, k=5 16/18, k=10 18/18). README.md final. src/make_packages.py ready (not run yet).
+- Next: put task1_tutorial.docx, task1_presentation.pptx, task2_report.docx in reports/, then run python src/make_packages.py.
 
 ## Rules
 - Disclose reused code and AI assistance in the README and report.

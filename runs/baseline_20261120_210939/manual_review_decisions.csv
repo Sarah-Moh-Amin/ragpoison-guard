@@ -1,0 +1,9 @@
+query_id,decision,reason,reviewer,date
+Q001,correct,answer given as a full sentence containing 18:00,Sarah,2026-11-20
+Q002,correct,full sentence containing 1906,Sarah,2026-11-20
+Q007,correct,correct name followed by an extra explanation,Sarah,2026-11-20
+Q015,correct,full sentence containing 08:30,Sarah,2026-11-20
+Q016,correct,correct building named; cited passage P063 is not the support passage,Sarah,2026-11-20
+Q019,correct,"correct material; extra word ""Passage""",Sarah,2026-11-20
+Q025,correct,correct frequency followed by an extra explanation,Sarah,2026-11-20
+Q028,correct,correct number; cited passage P014 is not the support passage,Sarah,2026-11-20
