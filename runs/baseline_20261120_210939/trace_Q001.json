@@ -1,0 +1,80 @@
+{
+  "run_id": "baseline_20261120_210939",
+  "query_id": "Q001",
+  "question": "When does Aster Archive close on weekdays?",
+  "ranked": [
+    {
+      "rank": 1,
+      "passage_id": "P019",
+      "score": 1.4194120168685913
+    },
+    {
+      "rank": 2,
+      "passage_id": "P150",
+      "score": 1.2195501327514648
+    },
+    {
+      "rank": 3,
+      "passage_id": "P086",
+      "score": 1.216447353363037
+    },
+    {
+      "rank": 4,
+      "passage_id": "P056",
+      "score": 1.1897594928741455
+    },
+    {
+      "rank": 5,
+      "passage_id": "P039",
+      "score": 1.065874695777893
+    },
+    {
+      "rank": 6,
+      "passage_id": "P069",
+      "score": 1.0637431144714355
+    },
+    {
+      "rank": 7,
+      "passage_id": "P168",
+      "score": 1.0600041151046753
+    },
+    {
+      "rank": 8,
+      "passage_id": "P160",
+      "score": 1.0086785554885864
+    },
+    {
+      "rank": 9,
+      "passage_id": "P079",
+      "score": 0.9971359372138977
+    },
+    {
+      "rank": 10,
+      "passage_id": "P101",
+      "score": 0.99269038438797
+    }
+  ],
+  "context_ids": [
+    "P019",
+    "P150",
+    "P086",
+    "P056",
+    "P039",
+    "P069",
+    "P168",
+    "P160",
+    "P079",
+    "P101"
+  ],
+  "context_text": "[P019] Aster Archive opens at 09:00 on weekdays, when the porter unlocks the heavy oak doors on Chancel Street and the first readers collect their reserved boxes from the issue desk. Researchers who plan a long day in the archive often arrive a few minutes early, because the most popular desks by the tall windows are quickly taken.\n[P150] On Saturdays Aster Archive is open from 10:00 until 13:00 for a short morning session, and the building stays closed on Sundays and public holidays. The Saturday session is popular with townspeople researching their family history, and an archivist is always on duty to help visitors read old handwriting.\n[P086] Aster Archive was carefully renovated in 1978, when new climate controls, fire doors and steel shelving were installed in the strong rooms. During the renovation the collections were moved temporarily to the basement of Hollin Library, and readers had to request documents a day in advance until the work was finished.\n[P056] Aster Archive is the historic archive building of Asterford University and stands on Chancel Street in the old part of the campus. On weekdays the archive closes at 18:00, and staff ask readers to return all boxes to the issue desk a quarter of an hour before closing. Evening research groups therefore usually meet in Hollin Library instead.\n[P039] Aster Archive is built of pale grey limestone and has a slender clock tower above its main entrance. Inside, the Long Room serves as the reading room, with twenty-four desks under a painted ceiling, while the strong rooms below hold charters, letters, maps and account books belonging to Asterford University and the town.\n[P069] On Saturdays the Student Health Centre at Asterford University opens at 08:30 and offers a short morning session for urgent appointments and repeat prescriptions. The Saturday session is staffed by one doctor and two nurses, and students who feel unwell over the weekend are encouraged to arrive early because places are limited.\n[P168] Aster Archive was completed in 1906, after four years of building work paid for by a gift from the town council and a group of former students. The grey limestone building was designed to protect the university's charters, letters and account books from damp, and its thick walls still keep the strong rooms cool throughout the summer.\n[P160] Laundry rooms with washing machines and dryers are provided in every residence at Asterford University. The machines are operated with a card that students top up online, and a laundry rota helps to prevent long queues on Sunday evenings, which are traditionally the busiest time.\n[P079] On weekdays the Student Health Centre at Asterford University is open from 08:00 to 19:00, with appointments available throughout the day. Students can see a doctor, a nurse or a pharmacist, and the centre also runs clinics for travel vaccinations, sports injuries and sexual health.\n[P101] Pages and Pens is an independent bookshop on Tanner Street that has served Asterford for many decades. Its narrow rooms are packed from floor to ceiling with new and second-hand books, and the owners keep a table of recommended titles chosen by students and staff of the university.",
+  "output_text": "Aster Archive closes at 18:00 on weekdays [P056].",
+  "accepted_answers": [
+    "18:00",
+    "6 pm",
+    "6:00 pm",
+    "6 p.m."
+  ],
+  "exact_match": false,
+  "contains_match": true,
+  "failure_type": "none"
+}

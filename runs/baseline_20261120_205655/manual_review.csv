@@ -1,0 +1,3 @@
+query_id,question,output_text,normalised_answer,accepted_answers,exact_match,contains_match
+Q025,How often does the Campus Loop shuttle run on weekdays?,Weekdays: Every 12 minutes (P157),weekdays: every 12 minutes,every 12 minutes | 12 minutes,False,True
+Q027,What colour are the lab coats worn by students in the Sable Chemistry Laboratory?,The lab coats worn by students in the Sable Chemistry Laboratory are amber (P191).,lab coats worn by students in sable chemistry laboratory are amber,amber,False,True

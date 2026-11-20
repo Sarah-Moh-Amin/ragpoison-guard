@@ -10,7 +10,7 @@
   "top_k": 10,
   "max_new_tokens": 64,
   "do_sample": false,
-  "prompt_version": "pilot_v2",
+  "prompt_version": "pilot_v3",
   "device": "cpu",
   "generator_max_input_tokens": 2048,
   "context_rule": "add whole passages in rank order; omit any passage that would exceed the input budget; never cut a passage"

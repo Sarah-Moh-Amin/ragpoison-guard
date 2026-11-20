@@ -1,0 +1,4 @@
+query_id,question,output_text,normalised_answer,accepted_answers,exact_match,contains_match
+Q029,Which hall hosts the Winter Book Fair?,"Greymantle Hall
+
+Supporting Passage ID: P199",greymantle hall supporting passage id:,Greymantle Hall | Greymantle,False,True
