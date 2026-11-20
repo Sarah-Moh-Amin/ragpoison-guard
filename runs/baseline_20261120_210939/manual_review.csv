@@ -1,0 +1,17 @@
+query_id,question,output_text,normalised_answer,accepted_answers,exact_match,contains_match
+Q001,When does Aster Archive close on weekdays?,Aster Archive closes at 18:00 on weekdays [P056].,aster archive closes at 18:00 on weekdays,18:00 | 6 pm | 6:00 pm | 6 p.m.,False,True
+Q002,In which year was Aster Archive completed?,"The answer is [P168], which states that Aster Archive was completed in 1906.",answer is which states that aster archive was completed in 1906,1906,False,True
+Q007,Who heads the Department of Maritime History?,"Professor Ilse Marquand [P198]
+
+Explanation: The evidence provided lists several professors associated with the Department of Maritime History, but among these, Professor Ilse Marquand is explicitly stated to be the current head of the department. This directly answers the question without any ambiguity.",professor ilse marquand explanation: evidence provided lists several professors associated with department of maritime history but among these professor ilse marquand is explicitly stated to be current head of department. this directly answers question without any ambiguity,Ilse Marquand | Professor Ilse Marquand | Professor Marquand | Marquand,False,True
+Q015,What time does the Student Health Centre open on Saturdays?,The Student Health Centre opens at 08:30 on Saturdays [P069].,student health centre opens at 08:30 on saturdays,08:30 | 8:30 | 8:30 am | 8.30 am | 8:30 a.m.,False,True
+Q016,Which building houses the Student Health Centre?,"The Student Health Centre houses its facilities in Fenwick Lodge, a former gatekeeper's house at the southern entrance of the campus. [P063]",student health centre houses its facilities in fenwick lodge former gatekeeper s house at southern entrance of campus,Fenwick Lodge,False,True
+Q019,What material is Kestrel Boathouse built from?,"Cedar
+
+Passage [P087]",cedar passage,cedar | cedar wood | cedarwood,False,True
+Q025,How often does the Campus Loop shuttle run on weekdays?,"Weekdays: Every 12 minutes [P157]
+
+Explanation: The passage [P157] states ""On weekdays the Campus Loop shuttle runs every 12 minutes"" as the correct frequency for weekday operation. This directly answers the question about how often the shuttle runs during weekdays.",weekdays: every 12 minutes explanation: passage states on weekdays campus loop shuttle runs every 12 minutes as correct frequency for weekday operation. this directly answers question about how often shuttle runs during weekdays,every 12 minutes | 12 minutes,False,True
+Q028,How many fume cupboards does the Sable Chemistry Laboratory have?,"52
+
+Passage [P014]",52 passage,52 | fifty-two,False,True

@@ -1,0 +1,2 @@
+run_id,prompt_version,n,support_hit_at_10,exact_match,contains_match,coverage,correctness_among_answered,abstentions,mean_generation_s,median_generation_s,max_generation_s,generator_load_s
+baseline_20261120_202847,pilot_v1,18,18/18,0/18,1/18,1/18,1/1,17/18,13.999,13.901,17.512,1.02
