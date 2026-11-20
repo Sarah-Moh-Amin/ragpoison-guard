@@ -78,6 +78,7 @@ src/  data/clean/  data/manifests/  data/attacks/  cache/  runs/ (one new subfol
 - Disclose reused code and AI assistance in the README and report.
 - Never claim results that were not measured. Label hand examples as test examples.
 - Keep evaluator labels out of model inputs. Every output must join back to IDs.
+- Never add Co-Authored-By or any AI attribution line to commit messages. AI assistance is disclosed in the README and reports instead.
 
 ## How to work with Sarah
 - Sarah is a beginner: write simple code with short comments.
