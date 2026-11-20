@@ -12,7 +12,7 @@ import torch
 
 from embeddings import load_config, load_retriever, build_or_load_cache, load_passages
 from retrieval import retrieve
-from generation import (PROMPT_PILOT_V1, load_generator, assemble_context,
+from generation import (get_template, load_generator, assemble_context,
                         generate_answer, is_abstention)
 
 QUERIES_FILE = "data/clean/queries.jsonl"
@@ -144,7 +144,7 @@ run_config["date"] = now.isoformat(timespec="seconds")
 with open(os.path.join(run_dir, "run_config.json"), "w") as f:
     json.dump(run_config, f, indent=2)
 with open(os.path.join(run_dir, "prompt_template.txt"), "w") as f:
-    f.write(PROMPT_PILOT_V1)
+    f.write(get_template(config["prompt_version"]))
 
 # Step 10: save the summary.
 gen_times = [row["generation_s"] for row in results]

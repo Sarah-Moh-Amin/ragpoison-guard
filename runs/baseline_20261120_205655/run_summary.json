@@ -1,0 +1,11 @@
+{
+  "run_id": "baseline_20261120_205655",
+  "retriever_and_cache_load_s": 2.13,
+  "cache_mode": "load",
+  "generator_load_s": 1.03,
+  "num_questions": 18,
+  "num_abstentions": 2,
+  "mean_generation_s": 11.567,
+  "max_generation_s": 14.207,
+  "total_run_s": 212.69
+}
