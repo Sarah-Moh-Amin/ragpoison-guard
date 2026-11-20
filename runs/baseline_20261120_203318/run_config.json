@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "retriever": "facebook/contriever",
+  "retriever_revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+  "pooling": "masked_mean",
+  "retriever_max_tokens": 256,
+  "retrieval_score": "dot",
+  "generator": "Qwen/Qwen2.5-1.5B-Instruct",
+  "generator_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "top_k": 10,
+  "max_new_tokens": 64,
+  "do_sample": false,
+  "prompt_version": "pilot_v1",
+  "device": "cpu",
+  "generator_max_input_tokens": 2048,
+  "context_rule": "add whole passages in rank order; omit any passage that would exceed the input budget; never cut a passage",
+  "run_id": "baseline_20261120_203318",
+  "date": "2026-11-20T20:33:18"
+}
