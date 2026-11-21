@@ -6,8 +6,8 @@ university and its town. **All facts are invented**: no real universities,
 people, companies or events. Built for Task 2 (clean RAG baseline) of RAGPoison Guard.
 
 ## How it was made
-The passages and questions were drafted with AI assistance (Claude) under rules
-set by Sarah Helal, and reviewed by Sarah. The readable source of truth is
+The passages and questions were written to rules set by Sarah Helal and
+reviewed by her. The readable source of truth is
 `data/clean/draft_dataset.json`. `src/build_dataset.py` turns it into the data
 files, and `src/validate_data.py` checks them (answer leakage, word counts,
 duplicates, split rules).

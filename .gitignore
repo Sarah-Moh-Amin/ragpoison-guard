@@ -3,10 +3,11 @@ __pycache__/
 *.pyc
 .DS_Store
 .env
-cache/
 *.safetensors
 *.bin
 *.zip
 references/
 reports/
 ~$*
+CLAUDE.md
+.claude/

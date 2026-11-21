@@ -79,7 +79,7 @@ src/             Python code
 data/clean/      clean passages and questions
 data/manifests/  split manifest and passage roles
 data/attacks/    poisoned (attack) passages (later tasks)
-cache/           embedding cache (not in git)
+cache/           embedding cache (200 x 768, built by run_retrieval.py)
 runs/            one subfolder per run
 reports/         reports (not in git)
 references/      papers (not in git)
@@ -91,8 +91,3 @@ Data: fictional Asterford University corpus, see `data/DATA_CARD.md`.
 ## Reused code
 Reused code: smoke test and encoding adapted from the facebook/contriever and
 Qwen2.5-1.5B-Instruct model card examples.
-
-## AI assistance
-AI assistance: Claude (Anthropic) was used for planning, explanations, code drafting and drafting
-the fictional dataset. The student set the rules, reviewed the outputs and
-ran all experiments.
