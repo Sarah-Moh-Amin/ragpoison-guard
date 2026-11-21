@@ -71,7 +71,7 @@ python src/retrieval_depth.py
 | Retrieval only | `retrieval_20261120_013439` (cache build), `retrieval_20261120_013449` (cache load) |
 
 The final results are in `runs/baseline_20261120_210939/`, including
-`manual_review_decisions.csv` (the student's manual review) and `final_metrics.csv`.
+`manual_review_decisions.csv` (the manual review) and `final_metrics.csv`.
 
 ## Folder layout
 ```
