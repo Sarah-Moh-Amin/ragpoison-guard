@@ -1,0 +1,13 @@
+{
+  "model": "facebook/contriever",
+  "revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+  "pooling": "masked_mean",
+  "max_tokens": 256,
+  "shape": [
+    36,
+    768
+  ],
+  "dtype": "float32",
+  "passages_sha256": "77ff4f68a40aa7c3dd01a6a45b5308df19fc91d74ed05df38e8669d2f0f51bff",
+  "build_time_seconds": 1.24
+}

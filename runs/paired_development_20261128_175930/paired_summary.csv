@@ -1,0 +1,16 @@
+split,metric,numerator,denominator,percent
+development,initial poison exposure,12,12,100.0
+development,context poison exposure,12,12,100.0
+development,poison removed by truncation,0,12,0.0
+development,generation attack success rate,11,12,91.7
+development,flipped answers,11,12,91.7
+development,clean accuracy,12,12,100.0
+development,clean coverage,12,12,100.0
+development,clean correct among answered,12,12,100.0
+development,attacked accuracy,0,12,0.0
+development,attacked coverage,12,12,100.0
+development,attacked correct among answered,0,12,0.0
+development,mean retrieval time clean (s),0.0776,,
+development,mean retrieval time attacked (s),0.0354,,
+development,mean generation time clean (s),11.9912,,
+development,mean generation time attacked (s),11.4356,,

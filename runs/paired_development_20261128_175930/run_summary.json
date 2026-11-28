@@ -1,0 +1,14 @@
+{
+  "run_id": "paired_development_20261128_175930",
+  "split": "development",
+  "retriever_and_caches_load_s": 1.74,
+  "clean_cache_mode": "load",
+  "attack_cache_mode": "load",
+  "generator_load_s": 1.0,
+  "num_pairs": 12,
+  "mean_generation_s_clean": 11.991,
+  "max_generation_s_clean": 16.003,
+  "mean_generation_s_attacked": 11.436,
+  "max_generation_s_attacked": 13.783,
+  "total_run_s": 285.4
+}

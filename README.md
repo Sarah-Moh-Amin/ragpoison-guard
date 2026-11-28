@@ -91,3 +91,36 @@ Data: fictional Asterford University corpus, see `data/DATA_CARD.md`.
 ## Reused code
 Reused code: smoke test and encoding adapted from the facebook/contriever and
 Qwen2.5-1.5B-Instruct model card examples.
+
+## Task 3: poisoning pilot
+Development part only (12 target questions, 3 hand-written attack passages each).
+Every target question is run twice with identical settings: on the clean corpus (200 passages)
+and on the clean corpus plus only that question's 3 attack passages (203 passages).
+
+Run in this order from the project folder:
+```
+python src/build_attacks.py
+python src/test_scoring.py
+python src/run_paired.py --split development
+python src/score_paired.py runs/paired_development_20261128_175930
+python src/plot_paired.py runs/paired_development_20261128_175930
+```
+
+Inputs:
+- `data/attacks/attack_drafts_dev.json`: the approved attack drafts (target answer, aliases, 3 passages per question)
+- `data/clean/passages.jsonl`, `data/clean/queries.jsonl`, `cache/passage_*` and `config.json` (unchanged from Task 2)
+- `tests/scoring_fixtures.json`: hand-checked scoring test cases
+
+Outputs:
+| Script | Writes |
+|---|---|
+| `build_attacks.py` | `data/attacks/attack_passages.jsonl` (P201 to P236), `data/attacks/attack_manifest.jsonl` (ATK01 to ATK12), `cache/attack_embeddings.npy`, `cache/attack_ids.json`, `cache/attack_cache_metadata.json` |
+| `test_scoring.py` | nothing; prints PASS or FAIL for each fixture |
+| `run_paired.py` | `runs/paired_development_<time>/clean_results.jsonl`, `attacked_results.jsonl`, `timing.csv`, `run_config.json`, `prompt_template.txt`, `run_summary.json` |
+| `score_paired.py` | in the run folder: `scored_pairs.jsonl`, `paired_summary.csv`, `manual_audit.csv`, `trace_<query_id>.json` for every pair |
+| `plot_paired.py` | in the run folder: `paired_results.png` |
+
+Helper modules: `attack_cache.py` (attack embedding cache) and `attack_scoring.py` (scoring rules).
+Only `attack_scoring.py` and `score_paired.py` read accepted answers, support IDs, target answers and aliases.
+
+Run ID: `paired_development_20261128_175930`
